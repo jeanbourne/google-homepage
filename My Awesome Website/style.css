@@ -117,10 +117,21 @@ button {
 
 }
 .section-three {
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
- 
-    align-items: center;
-   
     padding: 8px 60px;
- 
+    align-items: center;
+    padding: 30px 300px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    font-weight: 100;
+} 
+.signature {
+    font-weight: 600;
+    align-self: flex-end;
 }

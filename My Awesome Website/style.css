@@ -24,7 +24,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 120px;
+    padding: 8px 60px;
 }
 
 ul {
@@ -42,7 +42,7 @@ ul {
 
 .section-one {
     display: flex;
-    padding: 50px 120px;  
+    padding: 50px 60px;  
 }
 
 .left-one {
@@ -60,7 +60,7 @@ ul {
     color: #f9faf8;
 }
 .main-image {
-    padding-bottom: 100px;
+
     margin-left: 30px;
     border-radius: 0;
 }
@@ -84,7 +84,7 @@ button {
 .section-two {
     display: flex;
     flex-direction: column;
-    padding: 30px 120px;
+    padding: 30px 60px;
     align-items: center;
     gap: 30px;
 
@@ -115,4 +115,12 @@ button {
     width: 150px;
     text-align: center;
 
+}
+.section-three {
+    background-color: #E5E7EB;
+ 
+    align-items: center;
+   
+    padding: 8px 60px;
+ 
 }

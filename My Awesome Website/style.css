@@ -4,7 +4,6 @@ body {
     justify-content: space-between;
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    
 }
 .main {
     height: 300px;
@@ -24,7 +23,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 8px 60px;
+    padding: 8px 100px;
 }
 
 ul {
@@ -42,7 +41,7 @@ ul {
 
 .section-one {
     display: flex;
-    padding: 50px 60px;  
+    padding: 50px 100px;  
 }
 
 .left-one {
@@ -84,7 +83,7 @@ button {
 .section-two {
     display: flex;
     flex-direction: column;
-    padding: 30px 60px;
+    padding: 30px 100px;
     align-items: center;
     gap: 30px;
 
@@ -101,7 +100,7 @@ button {
     justify-content: center;
     gap: 20px;
 }
-.section-four {
+.content-four {
     background-color: #3882f6; 
 }
 
@@ -120,7 +119,7 @@ button {
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    padding: 8px 60px;
+    padding: 8px 100px;
     align-items: center;
     padding: 30px 300px;
 }
@@ -134,4 +133,38 @@ button {
 .signature {
     font-weight: 600;
     align-self: flex-end;
+}
+
+.section-four {
+    padding: 50px 100px;  
+}
+
+.content4 {
+    background-color: #3882f6; 
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 30px;
+    border-radius: 8px;
+    
+}
+.button2 {
+    border: 2px solid white;
+    border-radius: 8px;
+
+}
+
+.call { 
+    color: #f9faf8;
+    font-size: 24px;
+    font-weight: 800;
+}
+.donate {
+    color: #f9faf8;
+    font-size: 18px
+}
+
+.footer {
+    display: flex;
+    padding: 20px 0px;
+    justify-content: center;
 }
